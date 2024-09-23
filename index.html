@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      /* Table style */
+      table {
+            width: 50%;
+            border-collapse: collapse;
+            
+        }
+        table, th, td {
+            border: 1px solid rgb(241, 5, 217);
+            padding: 10px;
+            text-align:center;
+            
+        }
+        
+        /* Change row color on hover */
+        tr:hover {
+            background-color: lightblue;
+        }
+
+        /* Change cell color on hover (optional) */
+        td:hover {
+            background-color: rgb(255, 0, 0);
+        }
+        th:hover{
+          background-color: blue;
+        }
+        .no:hover{
+          background-color: yellow;
+        }
+        h1{
+          color:red;
+          text-align: left;
+          margin-left: 90px;
+        }
+body{
+  background-color: rgb(198, 241, 154);
+}
+    </style>
+  </head>
+  <body>
+    
+    <header></header>
+    <main>
+      
+    
+      <table>
+        <h1>This is my first Hover Table</h1>
+          <tr>
+              <th>Name</th>
+              <th>Roll-No</th>
+              <th>College</th>
+              <th>Department</th>
+              <th>class </th>
+              <th>Id number</th>
+          </tr>
+          <tr>
+              <td>Mahmudul</td>
+              <td class="no">2319</td>
+              <td>MLD College</td>
+              <td>BCA</td>
+              <td class="no">3rd sem</td>
+              <td>25642</td>
+          </tr>
+          <tr>
+            <td>Shakil Hassan</td>
+            <td class="no">2612</td>
+            <td>GU College</td>
+            <td>CSIT</td>
+            <td class="no">5th sem</td>
+            <td>27564</td>
+          </tr>
+          <tr>
+            <td>Jerry</td>
+            <td class="no">1035</td>
+            <td>MLD College</td>
+            <td>B.Tech</td>
+            <td class="no">1st sem</td>
+            <td>255135</td>
+          </tr>
+      </table>
+    </main>
+
+  </body>
+</html>
